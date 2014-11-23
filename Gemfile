@@ -6,6 +6,7 @@ gem 'jquery-rails',         '4.0.0.beta2'
 gem 'jbuilder',             '2.2.3'
 gem 'rails-html-sanitizer', '1.0.1'
 gem 'sdoc',                 '0.4.0', group: :doc
+gem 'haml'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
