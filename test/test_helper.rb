@@ -24,6 +24,14 @@ class ActiveSupport::TestCase
     end
   end
 
+  def failed_log_in(user)
+    password    = 'password1'
+    remember_me = '1'
+    post login_path, session: { email:       user.email,
+                                  password:    password,
+                                  remember_me: remember_me }
+  end
+
   private
 
     def integration_test?

@@ -10,6 +10,7 @@ class SessionsController < ApplicationController
       redirect_back_or user
     else
       flash.now[:danger] = 'Invalid email/password combination'
+      session[:forwarding_url] = nil
       render 'new'
     end
   end
