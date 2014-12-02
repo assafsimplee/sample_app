@@ -1,0 +1,15 @@
+one:
+  follower: assaf
+  followed: lana
+
+two:
+  follower: assaf
+  followed: mallory
+
+three:
+  follower: lana
+  followed: assaf
+
+four:
+  follower: archer
+  followed: assaf
